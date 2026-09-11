@@ -1,7 +1,3 @@
-/* =========================================================
-   Portafolio Profesional — Alonso Contreras
-   Estética: diagrama de arquitectura / esquema técnico
-   ========================================================= */
 
 :root {
   --bg: #0F1B2B;
@@ -79,8 +75,6 @@ a:hover, a:focus-visible { text-decoration: underline; }
   top: 1rem;
 }
 
-/* ---------- Layout helpers ---------- */
-
 .section__inner {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -100,8 +94,6 @@ a:hover, a:focus-visible { text-decoration: underline; }
 }
 
 .section__heading { margin-bottom: 2rem; }
-
-/* ---------- Header / nav ---------- */
 
 .site-header {
   position: sticky;
@@ -129,8 +121,6 @@ a:hover, a:focus-visible { text-decoration: underline; }
 }
 .brand__dot { color: var(--accent); }
 .brand:hover { text-decoration: none; }
-
-
 
 .brand__logo {
   height: 32px;
@@ -172,8 +162,6 @@ a:hover, a:focus-visible { text-decoration: underline; }
   background: var(--text);
 }
 
-/* ---------- Topology (signature connecting line) ---------- */
-
 .topology {
   position: fixed;
   left: 2rem;
@@ -192,8 +180,6 @@ a:hover, a:focus-visible { text-decoration: underline; }
 @media (min-width: 900px) {
   .topology { display: block; }
 }
-
-/* ---------- Hero ---------- */
 
 .hero { padding-top: clamp(3.5rem, 8vw, 7rem); }
 
@@ -233,8 +219,6 @@ a:hover, a:focus-visible { text-decoration: underline; }
   border: 1px solid var(--line);
 }
 
-/* ---------- Buttons ---------- */
-
 .button {
   display: inline-block;
   padding: 0.75rem 1.4rem;
@@ -258,8 +242,6 @@ a:hover, a:focus-visible { text-decoration: underline; }
 }
 .button--ghost:hover { border-color: var(--accent); color: var(--accent); }
 
-/* ---------- About ---------- */
-
 .about__grid {
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
@@ -267,8 +249,6 @@ a:hover, a:focus-visible { text-decoration: underline; }
 }
 
 .about__body p { color: var(--text-muted); }
-
-/* ---------- Skills ---------- */
 
 .skills-grid {
   display: grid;
@@ -305,8 +285,6 @@ a:hover, a:focus-visible { text-decoration: underline; }
   flex-shrink: 0;
   object-fit: contain;
 }
-
-/* ---------- Projects ---------- */
 
 .projects {
   display: flex;
@@ -347,8 +325,6 @@ a:hover, a:focus-visible { text-decoration: underline; }
 .project p:not(.project__meta) { color: var(--text-muted); }
 
 .project__link { font-family: var(--font-display); font-size: 0.9rem; }
-
-/* ---------- Contact ---------- */
 
 .contact__grid {
   display: grid;
@@ -425,8 +401,6 @@ a:hover, a:focus-visible { text-decoration: underline; }
   min-height: 1.2em;
 }
 
-/* ---------- Footer ---------- */
-
 .site-footer {
   border-top: 1px solid var(--line-soft);
   padding: 2rem 0;
@@ -452,10 +426,6 @@ a:hover, a:focus-visible { text-decoration: underline; }
   margin: 0;
   padding: 0;
 }
-
-/* =========================================================
-   Responsive
-   ========================================================= */
 
 @media (max-width: 860px) {
   .hero__grid,
